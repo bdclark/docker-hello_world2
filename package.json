@@ -1,0 +1,13 @@
+{
+  "name": "docker_hello_world",
+  "version": "0.1.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
